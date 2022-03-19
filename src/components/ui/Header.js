@@ -21,9 +21,9 @@ const ElevationScroll = (props) => {
 const Header = (props) => {
     return (
         <ElevationScroll>
-        <AppBar>
+        <AppBar position='fixed' color='secondary'>
             <Toolbar>
-                dApps Development
+                MUI App Development
             </Toolbar>
         </AppBar>
         </ElevationScroll>
